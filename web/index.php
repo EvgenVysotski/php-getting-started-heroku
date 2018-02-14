@@ -9,7 +9,7 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
-   <div style="backgraung-color:red; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['rad']); ?>px; padding: 10px;">   
+   <div style="backgraung-color:red; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['range']); ?>px; padding: 10px;">   
   <h1>The server had accepted:</h1>
  
   <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
@@ -40,6 +40,7 @@ Hello
       <p><label for="my_checkbox">checketbox:</label><input type="checkbox" name="check" id="my_checkbox" checked value="yes"> </p><br>
       <p><label for="my_color">color:</label><input type="color" id="my_color" name="color"></p>
     <p> <label for="rad">радиус</label><input type="text" name="rad">
+    <p> <label for="r1">радиус</label> <input type="range" name="range" minlength="2" maxlength="30" id="r1">
     </p> 
     <br>
     <input type="submit" value="Submit">
