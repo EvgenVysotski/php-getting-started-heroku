@@ -9,7 +9,7 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
-   <div style="backgraung-color:red; border-style: double; border-width: 2px; ">   
+   <div style="backgraung-color:red; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['rad']); ?>;">   
   <h1>The server had accepted:</h1>
  
   <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
@@ -39,7 +39,7 @@ Hello
       <p><label for="my_select">select</label><select id="my_select" name="sel"><option value="">---------</option><option value="1">первая</option><option value="2" selected>вторая</option> </select> </p><br>
       <p><label for="my_checkbox">checketbox:</label><input type="checkbox" name="check" id="my_checkbox" checked value="yes"> </p><br>
       <p><label for="my_color">color:</label><input type="color" id="my_color" name="color"></p>
-    
+    <p> <label for="rad">радиус</label><input type="text" name="rad">
     </p> 
     <br>
     <input type="submit" value="Submit">
