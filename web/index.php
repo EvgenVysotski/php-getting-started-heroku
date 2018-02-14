@@ -9,7 +9,7 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
-   <div style="backgraund-color: #D25050; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['range']); ?>px; padding: 10px;">   
+   <div style="background-color: #D25050; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['range']); ?>px; padding: 10px;">   
   <h1>The server had accepted:</h1>
  
   <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
@@ -24,7 +24,7 @@ Hello
   <?php } ?>
 
   <?php if (!isset($_GET['submitted'])) { ?>
-  <div style="backgraung-color:red; border-style: double; border-width: 2px; "> 
+  <div style="background-color: ligthblue; border-style: double; border-width: 2px; "> 
   <h1>Play with the HTML form</h1>
   <form action="/index.php">
     <input type="hidden" name="submitted" value="yes">
