@@ -17,14 +17,14 @@ Hello
   <p>text: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
   <p>text: <?php echo htmlspecialchars($_GET['sel']); ?></p>
   <p>text: <?php echo htmlspecialchars($_GET['check']); ?></p>
-    <p>text: <?php echo htmlspecialchars($_GET['color']); ?></p>
+    <p>text: <?php echo htmlspecialchars($_GET['color']); ?> <span style="background-color:<?php echo htmlspecialchars($_GET['color']); ?>;  width: 40px; height: 20px; display: inline-block;"></span></p></p>
   
     <p>Try again? <a href="/index.php">Yes!</a></p>
   </div>
   <?php } ?>
 
   <?php if (!isset($_GET['submitted'])) { ?>
-  
+  <div style="backgraung-color:red; border-style: double; border-width: 2px; "> 
   <h1>Play with the HTML form</h1>
   <form action="/index.php">
     <input type="hidden" name="submitted" value="yes">
@@ -45,7 +45,7 @@ Hello
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
   </form>
-
+  </div>
   <?php } ?>
 
 </body>
