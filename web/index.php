@@ -18,7 +18,7 @@ Hello
     <p>text: <?php echo htmlspecialchars($_GET['color']); ?></p>
   
     <p>Try again? <a href="/index.php">Yes!</a></p>
-    <p>Try again? <a href="/index.php">Yes!</a></p>
+    
   <?php } ?>
 
   <?php if (!isset($_GET['submitted'])) { ?>
