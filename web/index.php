@@ -14,10 +14,10 @@ Hello
  
   <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
   <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
-  <p>text: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
-  <p>text: <?php echo htmlspecialchars($_GET['sel']); ?></p>
-  <p>text: <?php echo htmlspecialchars($_GET['check']); ?></p>
-    <p>text: <?php echo htmlspecialchars($_GET['color']); ?> <span style="background-color:<?php echo htmlspecialchars($_GET['color']); ?>;  width: 40px; height: 20px; display: inline-block;"></span></p></p>
+  <p>textarea: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
+  <p>список: <?php echo htmlspecialchars($_GET['sel']); ?></p>
+  <p>значение чека: <?php echo htmlspecialchars($_GET['check']); ?></p>
+    <p>значение цвета: <?php echo htmlspecialchars($_GET['color']); ?> <span style="background-color:<?php echo htmlspecialchars($_GET['color']); ?>;  width: 40px; height: 20px; display: inline-block;"></span></p></p>
   
     <p>Try again? <a href="/index.php">Yes!</a></p>
   </div>
