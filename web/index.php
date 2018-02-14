@@ -9,7 +9,7 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
-   <div style="backgraung-color:red; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['rad']); ?>;">   
+   <div style="backgraung-color:red; border-style: double; border-width: 2px; border-radius: <?php echo htmlspecialchars($_GET['rad'])px; ?>; padding: 10px;">   
   <h1>The server had accepted:</h1>
  
   <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
