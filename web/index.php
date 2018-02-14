@@ -9,8 +9,9 @@
 <body>
 Hello
   <?php if (isset($_GET['submitted'])) { ?>
-    <h1>The server had accepted:</h1>
-  <div style="backgraung-color:red; border-style: double; border-width: 2px; "  
+   <div style="backgraung-color:red; border-style: double; border-width: 2px; ">   
+  <h1>The server had accepted:</h1>
+ 
   <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
   <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
   <p>text: <?php echo htmlspecialchars($_GET['textarea']); ?></p>
