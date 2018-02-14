@@ -12,6 +12,7 @@ Hello
     <h1>The server had accepted:</h1>
     <p>radio: <?php echo htmlspecialchars($_GET['radio']); ?></p>
   <p>text: <?php echo htmlspecialchars($_GET['text']); ?></p>
+  <p>text: <?php echo htmlspecialchars($_GET['check']); ?></p>
     <p>Try again? <a href="/index.php">Yes!</a></p>
     <p>Try again? <a href="/index.php">Yes!</a></p>
   <?php } ?>
@@ -25,9 +26,13 @@ Hello
       <label for="my-radio-yes">radio Yes: </label>
       <input id="my-radio-yes" name="radio" type="radio" required value="Yes">
       <label for="my-radio-no">radio No: </label>
-      <input id="my-radio-no" name="radio" type="radio" required value="No">
+      <input id="my-radio-no" name="radio" type="radio" required value="No"><br>
     <label for="text">Текст однострочный:</label>
-       <input id="text" name="text" type="text"></p> 
+       <input id="text" name="text" type="text"><br>
+      <label for="check">Переключатель:</label>
+      <input id="check" name="check" type="check" value="VKL"> 
+    
+    </p> 
     <br>
     <input type="submit" value="Submit">
     <input type="reset" value="Clear">
