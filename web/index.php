@@ -24,7 +24,7 @@ Hello
   <?php } ?>
 
   <?php if (!isset($_GET['submitted'])) { ?>
-  <div style="background-color: green; border-style: double; border-width: 2px; "> 
+  <div style="background-color: #2FECCB; border-style: double; border-width: 2px; padding: 20px; "> 
   <h1>Play with the HTML form</h1>
   <form action="/index.php">
     <input type="hidden" name="submitted" value="yes">
