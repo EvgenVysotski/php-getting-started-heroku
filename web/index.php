@@ -8,7 +8,7 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro|Titillium+Web" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Comfortaa" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <script defer src="js\fontawesome-all.js"></script>
+    <script defer src="js/fontawesome-all.js"></script>
    
 </head>
 <body>
@@ -71,18 +71,18 @@
             <!--Страница галереи-->
             <div class="passage container-fluid">
                 <h1><a name="passage">галерея</a></h1>
-                <a  href="image\1.jpg"><img src="image/small/1.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\2.jpg"><img src="image/small/2.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\3.jpg"><img src="image/small/3.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\4.jpg"><img src="image/small/4.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\5.jpg"><img src="image/small/5.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\6.jpg"><img src="image/small/6.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\7.jpg"><img src="image/small/7.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\8.jpg"><img src="image/small/8.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>        
-                <a  href="image\9.jpg"><img src="image/small/9.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\10.jpg"><img src="image/small/10.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\11.jpg"><img src="image/small/11.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\12.jpg"><img src="image/small/12.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>                    
+                <a  href="image/1.jpg"><img src="image/small/1.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/2.jpg"><img src="image/small/2.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/3.jpg"><img src="image/small/3.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/4.jpg"><img src="image/small/4.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/5.jpg"><img src="image/small/5.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/6.jpg"><img src="image/small/6.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/7.jpg"><img src="image/small/7.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/8.jpg"><img src="image/small/8.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>        
+                <a  href="image/9.jpg"><img src="image/small/9.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/10.jpg"><img src="image/small/10.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/11.jpg"><img src="image/small/11.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image/12.jpg"><img src="image/small/12.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>                    
             </div>
             <!--Страница контактов-->
             <div class="contact container-fluid">
@@ -99,14 +99,14 @@
                 </div>
                 <div class="contact_maps">
                 	<a href="https://ru-ru.facebook.com" target="_blank" title="facebook">
-                	    <svg  class="cocial" width="50.00000000000001" height="50.00000000000001" xmlns="http://www.w3.org/2000/svg" ><rect stroke="null" fill="#3b5998" id="canvas_background" height="52" width="52" y="-1" x="-1"/>  <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/><g stroke="null"><text stroke="white" font-weight="bold" transform="matrix(2.0941681447662432,0,0,1.7381727837152308,-42.755974793983675,-7.851422075775576)" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="29" id="svg_2" y="29.44294" x="29.97049" stroke-width="0" fill=white>f</text> </g>
+                	    <svg  class="cocial" width="50.00000000000001" height="50.00000000000001" xmlns="http://www.w3.org/2000/svg" ><rect stroke="null" fill="#3b5998" height="52" width="52" y="-1" x="-1"/>  <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/><g stroke="null"><text stroke="white" font-weight="bold" transform="matrix(2.0941681447662432,0,0,1.7381727837152308,-42.755974793983675,-7.851422075775576)" xml:space="preserve" text-anchor="start" font-family="'League Gothic', sans-serif" font-size="29" id="svg_2" y="29.44294" x="29.97049" stroke-width="0" fill=white>f</text> </g>
                          </svg>
                     </a>
                     <a href="https://vk.com" target="_blank" title="вконтакте">
-                	    <svg class="cocial" width="49" height="49" xmlns="http://www.w3.org/2000/svg"><defs><filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur"><feGaussianBlur stdDeviation="0" in="SourceGraphic"/>  </filter> </defs> <g><rect fill="#45668e" id="canvas_background" height="51" width="51" y="-1" x="-1"/><rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/></g> <g><text  font-weight="bold" font-style="normal" filter="url(#svg_1_blur)" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="47" id="svg_1" y="39.59949" x="7.93285" stroke-width="0" stroke="#000" fill="white">В</text> </g></svg>
+                	    <svg class="cocial" width="49" height="49" xmlns="http://www.w3.org/2000/svg"><defs><filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur"><feGaussianBlur stdDeviation="0" in="SourceGraphic"/>  </filter> </defs> <g><rect fill="#45668e"  height="51" width="51" y="-1" x="-1"/><rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/></g> <g><text  font-weight="bold" font-style="normal" filter="url(#svg_1_blur)" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="47" id="svg_1" y="39.59949" x="7.93285" stroke-width="0" stroke="#000" fill="white">В</text> </g></svg>
                       </a>
                       <a href="https://twitter.com" target="_blank" title="twitter">
-                      	 <svg width="50" height="50" class="cocial" xmlns="http://www.w3.org/2000/svg"> <g><rect fill="#007bb6" id="canvas_background" height="52" width="52" y="-1" x="-1"/></g><g><text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="57" id="svg_1" y="44.10941" x="0.41985" stroke-width="0" stroke="#000" fill="white">in</text> </g>
+                      	 <svg width="50" height="50" class="cocial" xmlns="http://www.w3.org/2000/svg"> <g><rect fill="#007bb6"  height="52" width="52" y="-1" x="-1"/></g><g><text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="57" id="svg_1" y="44.10941" x="0.41985" stroke-width="0" stroke="#000" fill="white">in</text> </g>
                        </svg>
                       </a>
                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2350.2724979862965!2d27.520546415577726!3d53.909133480100785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46dbc55f35bf3dad%3A0xaabda25bdeeb761f!2z0YPQuy4g0KHQutGA0YvQs9Cw0L3QvtCy0LAgMTQsINCc0LjQvdGB0Lo!5e0!3m2!1sru!2sby!4v1520419392892" width="350" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>
