@@ -1,0 +1,75 @@
+.page{background-color: #7E9AB7; }
+/*Шапка страницы*/
+.header{ height: 40vh;}
+.slider{height: inherit; list-style: none; padding: 0;  position: relative; margin: 0 auto; width: inherit; }
+.slide{ position: absolute; padding: 0; transition: all 1s ease ; top: 0;}
+.slide img{width:100%; height: 40vh; }
+.buttoms{position: relative; width: 90vw; margin-left: 5%; margin-top: -37vh;}
+.buttom{position: absolute; cursor: pointer; z-index: 5;}
+.next{font-size: 50px; color: lightblue;  opacity: 0.3;}
+.prev{font-size: 50px; color: lightblue;  opacity: 0.3; margin-top: 15vh;}
+.no_active{color: blue;}
+
+/*Меню на широкай сранице*/
+.page_menu{height: 250px;}
+.point_menu{height: 40px; width: 80%; font-size: 20px;  border-radius: 5px; margin: 7px; list-style: none; padding: 3px; font-family: 'Source Sans Pro', sans-serif; cursor: pointer;}
+.point_menu:hover{transform: scale(1.1); background-color: #9DC5EA;}
+.point_menu a:hover{text-decoration: none;}
+
+
+/*Меню при уменшении размера*/
+.menu{width: 100px; height: 170px; position: fixed; right: 20px; top: 55px; background-color: #94A0F8; border-radius: 5px; visibility: hidden; z-index: 5;}
+.point_menu_small{height: 30px; width: 95%; font-size: 14px; border-radius: 3px; margin: 3px; list-style: none; padding: 2px; font-family: 'Titillium Web', sans-serif; color: blue; cursor: pointer;}
+.menu_list{margin-left: -40px;}
+.point_menu_small:hover{transform: scale(1.1); background-color: #9DC5EA;;}
+.point_menu_small a:hover{text-decoration: none;}
+#buttom_menu{position: fixed; top:10px; right: 20px; height: 41px; width: 40px; background-color: #94A0F8; z-index: 5; border-radius: 4px; cursor: pointer; font-size: 30px; text-align: center; color: blue;}
+
+/*основной контент*/
+.page_main{height: 100%;}
+
+.page_history h1, .page_technologe h1, .passage h1, .contact h1{text-align: center; width: 100%; background-color: #9DC5EA; font-family: 'Source Sans Pro',sans-serif; margin: 20px 0 20px 0;}
+.page_history h1 a:hover, .page_technologe h1 a:hover, .passage h1 a:hover, .contact h1 a:hover{text-decoration: none;}
+/*первая страница*/
+.header a{display: none;}
+.main{max-width: 90%; max-height: 500px; margin: 0 auto; padding: 20px 0 20px 0;}
+.main img{width: 100%; height: 100%; opacity: 0.7;}
+.main p {position: absolute; margin-top: -15%; margin-left: 3%;  font-family: cursive; color: blue;}
+
+/*Изменения размера текста при изменении ширины  экрана*/
+@media all and (max-width:768px){ .main p{font-size: 20px;} }
+@media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;} }
+@media all and (min-width:993px) { .main p{font-size: 45px;} }
+#button_main_page{ background: #9DC5EA; position: absolute; margin-top: -8%; margin-left: 21%; text-align: center; display: table-cell; cursor: pointer; border-radius: 3px; opacity: 0.3}
+
+@media all and (max-width:768px){ #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;} }
+@media all and (min-width:769px) and (max-width:992px){ #button_main_page{width: 80px; height: 35px; line-height: 35px;}  }
+@media all and (min-width:993px) { #button_main_page{width: 100px; height: 40px; line-height: 40px;}  }
+/*Страница истории*/
+.point_history{width: 60%; height: 20%; border-radius: 15px;  margin: 20px; background-color: #9DC5EA; opacity: 0.8;}
+.point_history img{float: right; border-radius: 40%; margin: 30px; width: 30%; height: 29%;}
+.point_history p, .point_history_finish p,.contact p {font-size: 18px; padding: 30px; font-family: 'Source Sans Pro',sans-serif;}
+.point_history span {font-weight: bold;}
+.point_history_finish{width: 100%; height: 50%; border-radius: 30px; background-color: #9DC5EA; clear: both; display: inline-block;}
+.point_history_finish img{float: right; border-radius: 40%; margin: 30px; width: 30%; height: 40%;}
+
+/*Страница технологии*/
+.page_technologe img{margin: 20px; border-radius: 5px; width: 40%; height: 30%}
+.page_technologe p {font-size: 18px; padding: 80px 30px 30px 30px; font-family:'Comfortaa', cursive;}
+.element_page_technologe{width: 100%; background-color: white;}
+.element_page_technologe p{font-size: 21px;  font-family:'Comfortaa', cursive; padding: 10px 10px 10px 50px; text-align: right;}
+.element_page_technologe span{font-weight: bold; font-size: 90px; padding-left: 20px; float: left;}
+
+/*Страница галереи*/
+.passage a img{max-width: 33%; min-width: 300px; margin-top: 2px; margin-bottom: 2px;}
+.passage {text-align: center;}
+.passage a img:hover{transform: scale(1.05);}
+
+/*Страница контактов*/
+.contact_form{max-width: 60%; min-width: 400px; font-family:'Comfortaa', cursive; display: inline-block;}
+.element_form{margin: 5px; border-radius: 5px; height: 30px; border-width: 0;}
+input[type="submit"]{margin-left: 15px;}
+.contact_maps{display: inline-block; width: 300px; text-align: center;}
+.down{width: inherit; height: 30px; text-align: center; padding: 30px 0 30px 0;}
+/*соц сети*/
+.cocial{border-radius: 5px; margin: 5px;}
