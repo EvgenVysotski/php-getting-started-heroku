@@ -16,9 +16,9 @@
     <div class="header container-fluid col-lg-11 col-md-12 col-sm-12 col-xs-12  ">
        
         <ul class="slider">
-            <li class="slide active"><img src="image\slide1.jpg" alt="слайдер Alpine A110"></li>
-            <li class="slide"><img src="image\slide3.jpg" alt="слайдер Alpine A110"></li>
-            <li class="slide"><img src="image\slide2.jpg" alt="слайдер Alpine A110"></li>
+            <li class="slide active"><img src="image/slide1.jpg" alt="слайдер Alpine A110"></li>
+            <li class="slide"><img src="image/slide3.jpg" alt="слайдер Alpine A110"></li>
+            <li class="slide"><img src="image/slide2.jpg" alt="слайдер Alpine A110"></li>
         </ul> 
 <!-- кнопки для слайдера-->
         <div class="buttoms">
@@ -30,59 +30,59 @@
     <div class="container-fluid page">
     	<div class="page_main col-lg-10 col-md-12 col-md-12 col-sm-12 col-xs-12">
             <div class="main">
-                <img src="image\main-page.jpg" title="a110" alt="a110">
+                <img src="image/main-page.jpg" title="a110" alt="a110">
                 <p class="text-uppercase"><strong>технологии<br>мечты<br></strong></p>
                 <div id="button_main_page">Подробнее</div>
             </div>
           <!--Страница истории Alpine A110-->
            <div class="page_history">
                 <h1><a name="history_page">История</a></h1>
-                <div class="point_history clearfix" clearfix>
-                     <img src="image\alpine.jpg " alt="логотип Alpine" title="логотип Alpine"><p>В 1954 году, после нескольких блестящих побед в ралли на доработанном Renault 4CVs <span>Жан Ределе</span> создает компанию Société Anonyme Des Automobiles Alpine, которая после победы в гонке Coupe Das Alpies была переименована в <span>Alpine</span>.</p>
+                <div class="point_history clearfix">
+                     <img src="image/alpine.jpg " alt="логотип Alpine" title="логотип Alpine"><p>В 1954 году, после нескольких блестящих побед в ралли на доработанном Renault 4CVs <span>Жан Ределе</span> создает компанию Société Anonyme Des Automobiles Alpine, которая после победы в гонке Coupe Das Alpies была переименована в <span>Alpine</span>.</p>
                 </div>
                 <div class="point_history clearfix" style="float: right;">
-                     <img src="image\alpine_a108.jpg" alt="Alpine 108" title="Alpine 108"><p>В 1962 году на платформе Renault R8, доработав кузов и шасси выпущено купе <span>Alpine A108</span>, которое и стало родителем для будущей легенды <span>Alpine A110</span>.</p>
+                     <img src="image/alpine_a108.jpg" alt="Alpine 108" title="Alpine 108"><p>В 1962 году на платформе Renault R8, доработав кузов и шасси выпущено купе <span>Alpine A108</span>, которое и стало родителем для будущей легенды <span>Alpine A110</span>.</p>
                 </div>
                 <div class="point_history" style="float:left;">
-                     <img src="image\renault-alpine-1971.jpg" alt="Alpine A100" title="Alpine A110 на ралли Монте-Карло"><p>1971 год &#45; гонщики заводской команды Alpine на болидах Alpine A110 с двигателем от Renault 16 занимают весь подиум знаменитого и престижного  <span>Ралли Монте-Карло</span>.</p>
+                     <img src="image/renault-alpine-1971.jpg" alt="Alpine A100" title="Alpine A110 на ралли Монте-Карло"><p>1971 год &#45; гонщики заводской команды Alpine на болидах Alpine A110 с двигателем от Renault 16 занимают весь подиум знаменитого и престижного  <span>Ралли Монте-Карло</span>.</p>
                 </div>
                 <div class="point_history" style="float:right;">
-                     <img src="image\5e14cf729486d94afbe508231d07a177-300x200.jpg" alt="Alpine А110" title="Alpine А110 на этапе ралли"><p>1973 год &#45; долгожданная победа команды Alpine в чемпионате мира по ралли того же года.</p>
+                     <img src="image/5e14cf729486d94afbe508231d07a177-300x200.jpg" alt="Alpine А110" title="Alpine А110 на этапе ралли"><p>1973 год &#45; долгожданная победа команды Alpine в чемпионате мира по ралли того же года.</p>
                 </div>
                 <div class="point_history" style="float:left;">
-                     <img src="image\196428.jpg" alt="Renult Vision" title="прототип Vision"><p>В 2016 году Renult представила предсерийный прототип Vision, продеманстрировав какой будет новая Alpine A110.</p>
+                     <img src="image/196428.jpg" alt="Renult Vision" title="прототип Vision"><p>В 2016 году Renult представила предсерийный прототип Vision, продеманстрировав какой будет новая Alpine A110.</p>
                 </div>
                 <div class="point_history_finish">
-                     <img src="image\Alpine_87780_global_en-300x200.jpg" alt="Alpine A110 2017" title="серийная Alpine А110"><p>7 марта 2017 года на женевском автосалоне была представлена новая Alpine A110.</p>
+                     <img src="image/Alpine_87780_global_en-300x200.jpg" alt="Alpine A110 2017" title="серийная Alpine А110"><p>7 марта 2017 года на женевском автосалоне была представлена новая Alpine A110.</p>
                 </div>
             </div>
             <!--Страница описания используемых технологий-->
             <div class="page_technologe clearfix" >
                 <h1><a name="page_techno">современные технологии</a></h1>
-                <img src="image\Alpine-A110_400х300.jpg" alt="кузов Alpine А110 2017" title="кузов Alpine А110 2017" style="float: left;"><p>Кузов и днище  A110 состоит на 96&#37; из алюминия. Кузовные детали  привариваются таким образом, чтобы структура была максимально жесткой и легкой. A110 весит всего 1080 кг. Оптимальное распределение веса по осям (56&#37; &#45;  веса на задней осью, 44&#37; &#45; на передней осью) позволяет с легкостью управлять автомобилем даже на горных дарогах.</p>
-                <img src="image\alpine_tech.jpg" alt="лучшие  поставщики комплектующих" title="лучшие  поставщики комплектующих" style="float: right;"><p>Еще на этапе разработки авто, инженерами и дизайнерами Alpine было решено использовать самых лучших поставщиков комплектующих, таких как Michelin, Отто и Brembo дабы гарантировать высокий уровень качества.</p>
+                <img src="image/Alpine-A110_400х300.jpg" alt="кузов Alpine А110 2017" title="кузов Alpine А110 2017" style="float: left;"><p>Кузов и днище  A110 состоит на 96&#37; из алюминия. Кузовные детали  привариваются таким образом, чтобы структура была максимально жесткой и легкой. A110 весит всего 1080 кг. Оптимальное распределение веса по осям (56&#37; &#45;  веса на задней осью, 44&#37; &#45; на передней осью) позволяет с легкостью управлять автомобилем даже на горных дарогах.</p>
+                <img src="image/alpine_tech.jpg" alt="лучшие  поставщики комплектующих" title="лучшие  поставщики комплектующих" style="float: right;"><p>Еще на этапе разработки авто, инженерами и дизайнерами Alpine было решено использовать самых лучших поставщиков комплектующих, таких как Michelin, Отто и Brembo дабы гарантировать высокий уровень качества.</p>
             
                 <div class="element_page_technologe">
                     <span>&#750;</span><p>Четырех-поршневые моноблочные суппорты ECS от Brembo<br> Тормазные диски Brembo диаметром 320 мм.<br>18-дюймовst кованые диски Otto Fuchs.<br>Шины Michelin Pilot sport 4</p>
                 </div>
-                <img src="image\Alpine-power.jpg" alt="двигатель Alpine А110 2017" title="сердце Alpine А110 2017" style="float: left;"><p>Alpine A110 обладает 4-цилиндровым двигателем с непосредственным впрыском топлива объемом 1.8 литра. Мощность двигателя 252 лошадиных сил при 6000 об/мин, максимальный крутящий момент 320 Нм. Этот двигатель в сочетании с коробкой передач с двойным сцеплением позволяет разогнать A110 до 100 км/ч за 4.5 секунды. </p>
-                <img src="image\interer-300x200.jpg" alt="салон Alpine А110 2017" title="изображение салона Alpine А110 2017" style="float: right;"><p>Использование материалов высокого качества: натуральной кожи, элементов из алюминия и углеродного волокна, а также руль спортивного типа, обеспечивает комфортное вождения А110. Монокок Sabelt весом 13,1 кг позволяет с удобством расположиться за рулем автомобиля.</p>
+                <img src="image/Alpine-power.jpg" alt="двигатель Alpine А110 2017" title="сердце Alpine А110 2017" style="float: left;"><p>Alpine A110 обладает 4-цилиндровым двигателем с непосредственным впрыском топлива объемом 1.8 литра. Мощность двигателя 252 лошадиных сил при 6000 об/мин, максимальный крутящий момент 320 Нм. Этот двигатель в сочетании с коробкой передач с двойным сцеплением позволяет разогнать A110 до 100 км/ч за 4.5 секунды. </p>
+                <img src="image/interer-300x200.jpg" alt="салон Alpine А110 2017" title="изображение салона Alpine А110 2017" style="float: right;"><p>Использование материалов высокого качества: натуральной кожи, элементов из алюминия и углеродного волокна, а также руль спортивного типа, обеспечивает комфортное вождения А110. Монокок Sabelt весом 13,1 кг позволяет с удобством расположиться за рулем автомобиля.</p>
             </div>
             <!--Страница галереи-->
             <div class="passage container-fluid">
                 <h1><a name="passage">галерея</a></h1>
-                <a  href="image\1.jpg"><img src="image\small\1.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\2.jpg"><img src="image\small\2.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\3.jpg"><img src="image\small\3.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\4.jpg"><img src="image\small\4.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\5.jpg"><img src="image\small\5.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\6.jpg"><img src="image\small\6.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\7.jpg"><img src="image\small\7.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\8.jpg"><img src="image\small\8.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>        
-                <a  href="image\9.jpg"><img src="image\small\9.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\10.jpg"><img src="image\small\10.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\11.jpg"><img src="image\small\11.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
-                <a  href="image\12.jpg"><img src="image\small\12.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>                    
+                <a  href="image\1.jpg"><img src="image/small/1.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\2.jpg"><img src="image/small/2.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\3.jpg"><img src="image/small/3.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\4.jpg"><img src="image/small/4.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\5.jpg"><img src="image/small/5.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\6.jpg"><img src="image/small/6.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\7.jpg"><img src="image/small/7.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\8.jpg"><img src="image/small/8.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>        
+                <a  href="image\9.jpg"><img src="image/small/9.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\10.jpg"><img src="image/small/10.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\11.jpg"><img src="image/small/11.jpg" alt="галерея Alpine A110" title="Alpine A110"></a> 
+                <a  href="image\12.jpg"><img src="image/small/12.jpg" alt="галерея Alpine A110" title="Alpine A110"></a>                    
             </div>
             <!--Страница контактов-->
             <div class="contact container-fluid">
@@ -103,7 +103,7 @@
                          </svg>
                     </a>
                     <a href="https://vk.com" target="_blank" title="вконтакте">
-                	    <svg class="cocial" width="49" height="49" xmlns="http://www.w3.org/2000/svg"><defs><filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur"><feGaussianBlur stdDeviation="0" in="SourceGraphic"/>  </filter> </defs> <g><rect fill="#45668e" id="canvas_background" height="51" width="51" y="-1" x="-1"/><rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>  </g> </g> <g><text  font-weight="bold" font-style="normal" filter="url(#svg_1_blur)" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="47" id="svg_1" y="39.59949" x="7.93285" stroke-width="0" stroke="#000" fill="white">В</text> </g></svg>
+                	    <svg class="cocial" width="49" height="49" xmlns="http://www.w3.org/2000/svg"><defs><filter height="200%" width="200%" y="-50%" x="-50%" id="svg_1_blur"><feGaussianBlur stdDeviation="0" in="SourceGraphic"/>  </filter> </defs> <g><rect fill="#45668e" id="canvas_background" height="51" width="51" y="-1" x="-1"/><rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/></g> <g><text  font-weight="bold" font-style="normal" filter="url(#svg_1_blur)" xml:space="preserve" text-anchor="start" font-family="Arvo, sans-serif" font-size="47" id="svg_1" y="39.59949" x="7.93285" stroke-width="0" stroke="#000" fill="white">В</text> </g></svg>
                       </a>
                       <a href="https://twitter.com" target="_blank" title="twitter">
                       	 <svg width="50" height="50" class="cocial" xmlns="http://www.w3.org/2000/svg"> <g><rect fill="#007bb6" id="canvas_background" height="52" width="52" y="-1" x="-1"/></g><g><text font-weight="bold" xml:space="preserve" text-anchor="start" font-family="Oswald, sans-serif" font-size="57" id="svg_1" y="44.10941" x="0.41985" stroke-width="0" stroke="#000" fill="white">in</text> </g>
