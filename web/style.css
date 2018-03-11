@@ -1,3 +1,5 @@
+html{width: 100vw;}
+body{width: inherit; padding: 0;}
 .page{background-color: #7E9AB7;  }
 /*Шапка страницы*/
 .header{height: 40vh;}
