@@ -39,8 +39,8 @@ body{width: inherit; padding: 0;}
 
 /*Изменения размера текста при изменении ширины  экрана*/
 #button_main_page{ background: #9DC5EA; position: absolute; margin-top: -8%; margin-left: 22%; text-align: center; display: table-cell; cursor: pointer; border-radius: 3px; opacity: 0.3}
-@media all and (max-width:400px){.header{ height: 12vh;}}
-@media all and (min-width:401px) and (max-width:768px){.header{ height: 20vh;}}
+@media all and (max-width:300px){.header{ height: 12vh;}}
+@media all and (min-width:301px) and (max-width:768px){.header{ height: 30vh;}}
 
 @media all and (max-width:768px){ .main p{font-size: 20px;}
                                   #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}
