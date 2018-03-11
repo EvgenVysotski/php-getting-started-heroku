@@ -42,7 +42,7 @@ body{width: inherit; padding: 0;}
 
 @media all and (max-width:768px){ .main p{font-size: 20px;}
                                   #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}
-                                   .header{ height: 18vh;}
+                                   .header{ height: 14vh;}
                                   .point_history{width: 100%;} 
                                   .point_history img {width: 50%;}
                                   .page_technologe img {clear: both; width: 100%; margin: 0 auto;}
@@ -50,10 +50,10 @@ body{width: inherit; padding: 0;}
                                   .page_technologe {width: 100%; margin: 0 auto;}
 
                                    }
-                                   
+
 @media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;}
                                                          #button_main_page{width: 80px; height: 35px; line-height: 35px;}
-                                                         .header{ height: 40vh;}
+                                                         .header{ height: 45vh;}
                                                          .point_history{width: 100%;  }
                                                          .point_history img {width: 30%;}
                                                          .page_technologe img {width: 40%; margin: 20px;}
