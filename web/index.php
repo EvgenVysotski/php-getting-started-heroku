@@ -28,8 +28,8 @@
         </div>  
        
     </div>
-    <div class="container-fluid page">
-    	<div class="page_main col-lg-10 col-md-12 col-md-12 col-sm-12 col-xs-12">
+    <div class="container-fluid page col-lg-10 col-md-12 col-md-12 col-sm-12 col-xs-12">
+    	
             <div class="main">
                 <img src="image/main-page.jpg" title="a110" alt="a110">
                 <p class="text-uppercase"><strong>технологии<br>мечты<br></strong></p>
@@ -116,22 +116,20 @@
                      Copyright 2018. All rights reserved.                    
                 </div>
             </div>
-        </div>
+        
+    </div>
     	<!-- меню при больших разерах окна-->
         <div class="page_menu col-lg-2 hidden-xs hidden-md hidden-sm">
     		<ol> <li  class="point_menu" onclick="location.href = this.querySelector('a').href"><a href="#first_page">Главная</a></li><li class="point_menu" onclick="location.href = this.querySelector('a').href"><a href="#history_page">История</a></li><li class="point_menu" onclick="location.href = this.querySelector('a').href"><a href="#page_techno">Технологии</a></li><li class="point_menu" onclick="location.href = this.querySelector('a').href"><a href="#passage">Галерея</a></li><li class="point_menu" onclick="location.href = this.querySelector('a').href"><a href="#contact">Контакты</a></li></ol>
     	</div>
-    </div>
+    
     <!-- меню при маленьких разерах окна-->
     <div class="menu visible-md-inline-block visible-xs-inline-block visible-sm-inline-block hidden-lg">
     	<ol class="menu_list"> <li class="point_menu_small" onclick="location.href = this.querySelector('a').href"><a href="#first_page">Главная</a></li><li class="point_menu_small" onclick="location.href = this.querySelector('a').href"><a href="#history_page">История</a></li><li class="point_menu_small" onclick="location.href = this.querySelector('a').href"><a href="#page_techno">Технологии</a></li><li class="point_menu_small" onclick="location.href = this.querySelector('a').href"><a href="#passage">Галерея</a></li><li class="point_menu_small" onclick="location.href = this.querySelector('a').href"><a href="#contact">Контакты</a></li></ol>
     </div>
 <!--кнопка вызова меню для маленьких экранов-->        
     <span id="buttom_menu" class="visible-md-inline-block visible-xs-inline-block visible-sm-inline-block hidden-lg"><i class="fas fa-align-justify"></i></span>  
-<script>
-  
 
-</script>
 <script src="js/fun.js"></script>
  <script defer src="js/fontawesome-all.js"></script>
 </body>
