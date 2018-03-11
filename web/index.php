@@ -91,10 +91,10 @@
                 <div class="contact_form">
                     <p>Телефон: +375 00 0000000<br>Email: alpine@gmail.com<br>Адрес: г.Минск, ул.Скрыганова, д14</p>
                     <form class="form">
-                        <label class="col-lg-4 col-sm-10 col-xs-10 element_form" for="name">Ваше имя</label><input  class="col-lg-7 col-sm-10 col-xs-10 element_form" type="text" name="name" id="name" placeholder="Введите ваше имя">
-                        <label class="col-lg-4 col-sm-10 col-xs-10 element_form" for="second_name">Ваша Фамилия</label><input  class="col-lg-7 col-sm-10 col-xs-10 element_form" type="text" name="second_name" id="second_name" placeholder="Введите вашу фамилию">
-                        <label class="col-lg-4 col-sm-10 col-xs-10 element_form" for="second_name">Ваш email</label><input  class="col-lg-7 col-sm-10 col-xs-10 element_form" type="email" name="email" id="email" placeholder="Введите ваш email">
-                        <label class="col-lg-4 col-sm-10 col-xs-10 element_form" for="message">Ваше сообщение</label> <textarea class="col-lg-7 col-sm-10 col-xs-10 element_form" name="message" id="message" style="resize: vertical;" placeholder="Введите ваше сообщение"></textarea>
+                        <label class="col-lg-4 col-sm-9 col-xs-9 element_form" for="name">Ваше имя</label><input  class="col-lg-7 col-sm-9 col-xs-9 element_form" type="text" name="name" id="name" placeholder="Введите ваше имя">
+                        <label class="col-lg-4 col-sm-9 col-xs-9 element_form" for="second_name">Ваша Фамилия</label><input  class="col-lg-7 col-sm-9 col-xs-9 element_form" type="text" name="second_name" id="second_name" placeholder="Введите вашу фамилию">
+                        <label class="col-lg-4 col-sm-9 col-xs-9 element_form" for="second_name">Ваш email</label><input  class="col-lg-7 col-sm-9 col-xs-9 element_form" type="email" name="email" id="email" placeholder="Введите ваш email">
+                        <label class="col-lg-4 col-sm-9 col-xs-9 element_form" for="message">Ваше сообщение</label> <textarea class="col-lg-7 col-sm-9 col-xs-9 element_form" name="message" id="message" style="resize: vertical;" placeholder="Введите ваше сообщение"></textarea>
                         <input type="submit" value="Отправить">
                     </form>
                 </div>
