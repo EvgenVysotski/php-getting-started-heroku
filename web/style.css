@@ -40,13 +40,27 @@ body{width: inherit; padding: 0;}
 
 /*Изменения размера текста при изменении ширины  экрана*/
 #button_main_page{ background: #9DC5EA; position: absolute; margin-top: -8%; margin-left: 21%; text-align: center; display: table-cell; cursor: pointer; border-radius: 3px; opacity: 0.3}
-@media all and (max-width:768px){ .main p{font-size: 20px;} #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}   .header{ height: 20vh;} .point_history{width: inherit; }}
-@media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;} #button_main_page{width: 80px; height: 35px; line-height: 35px;}  .header{ height: 32vh;}}
-@media all and (min-width:993px) { .main p{font-size: 45px;}  #button_main_page{width: 100px; height: 40px; line-height: 40px;}  }
+@media all and (max-width:768px){ .main p{font-size: 20px;}
+                                  #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}
+                                  .header{ height: 20vh;} 
+                                  .point_history{width: 100%;  } 
+                                  .page_technologe img {clear: both;}
+                                  .page_technologe p {padding: 0px 0px 30px 0px;}
+                                  .page_technologe {width: 100%;}
+                                   }
+@media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;}
+                                                         #button_main_page{width: 80px; height: 35px; line-height: 35px;}
+                                                         .header{ height: 32vh;}
+                                                         .point_history{width: 100%;  } }
+@media all and (min-width:993px) { .main p{font-size: 45px;} 
+                                    #button_main_page{width: 100px; height: 40px; line-height: 40px;} 
+                                    .point_history{width: 60%; } 
+                                    .point_history.right_history{margin-left: 35%;}
+                                    .page_technologe p {padding: 80px 30px 30px 30px;} }
 
 
 /*Страница истории*/
-.point_history{width: 60%;  border-radius: 15px;  margin: 20px; background-color: #9DC5EA; opacity: 0.8;}
+.point_history{border-radius: 15px;  margin: 20px 0 20px 0; background-color: #9DC5EA; opacity: 0.8;}
 .point_history img{float: right; border-radius: 40%; margin: 30px; width: 30%; height: 29%;}
 .point_history p, .point_history_finish p,.contact p {font-size: 18px; padding: 30px; font-family: 'Source Sans Pro',sans-serif;}
 .point_history span {font-weight: bold;}
@@ -54,8 +68,8 @@ body{width: inherit; padding: 0;}
 .point_history_finish img{float: right; border-radius: 40%; margin: 30px; width: 30%; height: 40%;}
 
 /*Страница технологии*/
-.page_technologe img{margin: 20px; border-radius: 5px; width: 40%; height: 30%}
-.page_technologe p {font-size: 18px; padding: 80px 30px 30px 30px; font-family:'Comfortaa', cursive;}
+.page_technologe img{margin: 20px; border-radius: 5px; width: 40%; }
+.page_technologe p {font-size: 18px;  font-family:'Comfortaa', cursive;}
 .element_page_technologe{width: 100%; background-color: white;}
 .element_page_technologe p{font-size: 21px;  font-family:'Comfortaa', cursive; padding: 10px 10px 10px 50px; text-align: right;}
 .element_page_technologe span{font-weight: bold; font-size: 90px; padding-left: 20px; float: left;}
