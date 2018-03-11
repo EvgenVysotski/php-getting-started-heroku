@@ -39,3 +39,9 @@ RewriteRule ^ index.php [QSA,L]
     # Включаем кэширование xml файлов на десять минут
     ExpiresByType application/xhtml+xml "access plus 600 seconds"
 </ifModule>
+<FilesMatch "\.(ico|jpg|jpeg|png|gif|js|css|swf)$">
+ExpiresActive on
+ExpiresDefault "access plus 30 days"
+Header unset ETag
+FileETag None
+</FilesMatch>
