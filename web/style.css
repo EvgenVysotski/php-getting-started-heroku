@@ -23,7 +23,7 @@
 .menu_list{margin-left: -40px;}
 .point_menu_small:hover{transform: scale(1.1); background-color: #9DC5EA;;}
 .point_menu_small a:hover{text-decoration: none;}
-#buttom_menu{position: fixed; top:3%; right: 4%; height: 41px; width: 40px; background-color: #94A0F8; z-index: 5; border-radius: 4px; cursor: pointer; font-size: 30px; text-align: center; color: blue;}
+#buttom_menu{position: fixed; top:3%; right: 7%; height: 41px; width: 40px; background-color: #94A0F8; z-index: 5; border-radius: 4px; cursor: pointer; font-size: 30px; text-align: center; color: blue;}
 
 /*основной контент*/
 .page_main{height: 100%;}
@@ -38,8 +38,8 @@
 
 /*Изменения размера текста при изменении ширины  экрана*/
 #button_main_page{ background: #9DC5EA; position: absolute; margin-top: -8%; margin-left: 21%; text-align: center; display: table-cell; cursor: pointer; border-radius: 3px; opacity: 0.3}
-@media all and (max-width:768px){ .main p{font-size: 20px;} #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}  .point_history img {clear: both;} .header{ height: 22vh;}}
-@media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;} #button_main_page{width: 80px; height: 35px; line-height: 35px;}  .header{ height: 25vh;}}
+@media all and (max-width:768px){ .main p{font-size: 20px;} #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}  .point_history img {clear: both;} .header{ height: 28vh;}}
+@media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;} #button_main_page{width: 80px; height: 35px; line-height: 35px;}  .header{ height: 32vh;}}
 @media all and (min-width:993px) { .main p{font-size: 45px;}  #button_main_page{width: 100px; height: 40px; line-height: 40px;}  }
 
 /*Страница истории*/
