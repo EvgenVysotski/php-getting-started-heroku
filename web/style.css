@@ -18,7 +18,7 @@
 
 
 /*Меню при уменшении размера*/
-.menu{width: 100px; height: 170px; position: fixed; right: 20px; top: 55px; background-color: #94A0F8; border-radius: 5px; visibility: hidden; z-index: 5;}
+.menu{width: 100px; height: 170px; position: fixed; right: 8%; top: 12%; background-color: #94A0F8; border-radius: 5px; visibility: hidden; z-index: 5;}
 .point_menu_small{height: 30px; width: 95%; font-size: 14px; border-radius: 3px; margin: 3px; list-style: none; padding: 2px; font-family: 'Titillium Web', sans-serif; color: blue; cursor: pointer;}
 .menu_list{margin-left: -40px;}
 .point_menu_small:hover{transform: scale(1.1); background-color: #9DC5EA;;}
@@ -38,7 +38,7 @@
 
 /*Изменения размера текста при изменении ширины  экрана*/
 #button_main_page{ background: #9DC5EA; position: absolute; margin-top: -8%; margin-left: 21%; text-align: center; display: table-cell; cursor: pointer; border-radius: 3px; opacity: 0.3}
-@media all and (max-width:768px){ .main p{font-size: 20px;} #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}   .header{ height: 15vh;}}
+@media all and (max-width:768px){ .main p{font-size: 20px;} #button_main_page{width: 65px; height: 30px; line-height: 30px; font-size: 12px;}   .header{ height: 20vh;}}
 @media all and (min-width:769px) and (max-width:992px){ .main p{font-size: 35px;} #button_main_page{width: 80px; height: 35px; line-height: 35px;}  .header{ height: 32vh;}}
 @media all and (min-width:993px) { .main p{font-size: 45px;}  #button_main_page{width: 100px; height: 40px; line-height: 40px;}  }
 
